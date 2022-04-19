@@ -4,7 +4,7 @@ const strengthCheck = (password) => {
   let lowerCaseCount = 0;
   let numberCount = 0;
   let specialCharCount = 0;
-  if (password.length > 6 && password.length < 32) {
+  if (password.length > 3 && password.length < 32) {
     for (let i in password) {
       let charCode = password[i].charCodeAt(0);
       switch (true) {
